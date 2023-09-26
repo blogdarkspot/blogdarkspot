@@ -1,6 +1,6 @@
 baseURL = 'https://blogdarkspot.github.io'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Fábio Santana'
 
 [menu]
 [[menu.main]]
@@ -22,4 +22,7 @@ title = 'My New Hugo Site'
     name = 'About'
     url = '/about'
     weight = 4
+
+[Params]
+    subtitle = 'Personal Blog'
 
