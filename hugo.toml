@@ -15,14 +15,16 @@ title = 'Fábio Santana'
 
 [[menu.main]]
     name = 'Resume'
-    url = '/cv'
+    url = '/cv/'
     weight = 3
 
 [[menu.main]]
     name = 'About'
-    url = '/about'
+    url = '/about/'
     weight = 4
 
 [Params]
     subtitle = 'Personal Blog'
 
+[markup.goldmark.renderer]
+  unsafe = true # Allow HTML in md files
